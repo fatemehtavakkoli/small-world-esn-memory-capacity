@@ -31,7 +31,7 @@ The overall pattern follows the paper. When input and output nodes are chosen at
 ## Running it
 
 ```bash
-pip install -r requirements.txt
+pip install numpy scipy networkx matplotlib
 python sw_esn_memory_capacity.py
 ```
 
@@ -47,7 +47,6 @@ The full run (7 values of `p`, 25 spectral radii, 20 trials, both settings) take
 ## Files
 
 - `sw_esn_memory_capacity.py` runs both experiments and saves the figures.
-- `requirements.txt` lists the Python packages.
 
 ## Author
 
